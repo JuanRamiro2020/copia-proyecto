@@ -1,4 +1,4 @@
-# Mecanic Ball
+# Aplicación Movil Mecanic Ball
 
 
 
@@ -11,21 +11,23 @@
 ![Estado](https://img.shields.io/badge/estado-en%20prototipo-yellow)  
 
 > Breve descripción del proyecto: ¿qué hace, para quién está hecho y por qué es importante?
-La solución que se propuso es la realización de una aplicación que permita el reconocimiento estructural de los puntos del cuerpo a través de la cámara del dispositivo móvil durante la realización física de la mecánica de tiro en el baloncesto, este reconocimiento permitirá que la app analice si la posición corporal de la persona es correcta a la hora de lanzar pero si no lo es la aplicación le dará tips y recomendaciones al usuario de como mejorar el movimiento mecánico del tiro en el baloncesto. Siguiendo las recomendaciones a través de la practica el usuario gradualmente mejorara su porcentaje de acierto en los tiros.
+Se propone una aplicación móvil que, mediante el uso de la cámara, reconoce la estructura corporal del usuario durante la mecánica de tiro en baloncesto. La app analiza si la postura es correcta y, en caso contrario, ofrece recomendaciones para mejorar el movimiento. Con la práctica y seguimiento de estos consejos, el jugador podrá mejorar gradualmente su precisión en los tiros.
 ---
 
 ## 🎯 Objetivo del Proyecto
 
 Explica brevemente el propósito general:
 
-- La mala ejecución de la técnica al tirar puede generar malos porcentajes de acierto y posibilidad de lesión 
-La mecánica de tiro en baloncesto se refiere al conjunto de movimientos y técnicas que un jugador utiliza para lanzar el balón hacia el aro de manera precisa y eficiente. Es un aspecto clave para tener un buen porcentaje de acierto.
-Esto nos llevó a preguntarnos ¿De qué manera se puede corregir automáticamente la postura del brazo para que la mecánica de tiro sea más efectiva y de esa manera aumentar el porcentaje de acierto en tiros de los jugadores y evitar posibles lesiones? 
+Problema identificado:
+Una mala ejecución en la técnica de tiro puede reducir el porcentaje de aciertos y aumentar el riesgo de lesiones. La mecánica de tiro —el conjunto de movimientos usados para lanzar el balón— es clave para lograr precisión y eficiencia.
+Pregunta guía:
+¿Cómo corregir automáticamente la postura del brazo para mejorar la mecánica de tiro, aumentar la efectividad y prevenir lesiones?
+Objetivo del proyecto:
+Diseñar y desarrollar un sistema tecnológico que ayude a los jugadores de baloncesto a mejorar su mecánica de tiro mediante:
 
--Diseñar y desarrollar un sistema tecnológico que permita a los jugadores de baloncesto mejorar su mecánica de tiro mediante la corrección automática de la postura del brazo y la retroalimentación en tiempo real. Este sistema estará basado en sensores electromiográficos y conectividad con una aplicación móvil para monitorear y evaluar la ejecución de cada lanzamiento, ayudando a optimizar la precisión del tiro y prevenir posibles lesiones.
-
--Proponemos una forma economica y sencilla de usar para practicar y mejorar la mecanica de tiro de los basketbolistas , sin la necesidad de maquinas super caras o de un entrenador personal, nosotros damos la oportunidad de mejorar mostrando tips y la forma de ejecucion de la mecanica de tiro y tambien permite al usuario entender con mayor facilidad en que se esta equivocando al tirar , mostrando especificamente la fase que tiene que mejorar y como puede hacer una mejor acción 
-
+Corrección automática de la postura del brazo.
+Retroalimentación en tiempo real.
+Monitoreo y evaluación de cada lanzamiento.
 ---
 
 ## 🧪 Prototipo
@@ -83,21 +85,30 @@ En esta etapa iniciamos la creacion de la aplicación en app inventor, un entorn
 
 ## 🧰 Tecnologías Utilizadas
 
+Prototipo 1
+Arduino
+Placa de desarrollo para microcontroladores que ejecutará la programación del sistema.
+Electrodos o sensor de señales EMC (Electromiografía)
+Dispositivo para captar señales eléctricas generadas por la actividad muscular.
+Sensor Bluetooth
+Módulo de comunicación inalámbrica para conectar la placa Arduino con el dispositivo móvil
 
- Para el desarrollo del proyecto los recursos que necesitaremos serán pocos, pero esenciales, primeramente, necesitamos una placa de Arduino que contendrá toda la programación luego necesitaremos un sensor de señales EMC o electrodo que captan señales eléctricas a partir del movimiento muscular, un sensor bluetooth para conectar el Arduino al celular y por último el desarrollo de una aplicación en Android estudio con Java.
-Fase de desarrollo:
- En esta fase vamos a implementar la creación de la aplicación en Android estudio que conectará el dispositivo móvil a una placa de Arduino que a su vez recibirá señales EMC de unos electrodos.
-Fase de pruebas:
- Realización de pruebas con los electrodos y la aplicación viendo cuales son las zonas más eficientes de usar y tomar información de los músculos mientras se ejecuta la mecánica de tiro. 
-Fase de entrega:
- Presentación de la manga conectada a la placa Arduino y una aplicación hecha en Android estudio 
-Producto esperado
-Una aplicación conectada a una manga que permitirá monitorear y corregir la mecánica de tiro en baloncesto para el usuario, está conectada por una placa Arduino, un conjunto de electrodos y un sensor bluetooth.
+Prototipo 2
+MediaPipe
+Biblioteca de Google para visión computacional y reconocimiento corporal.
 
+Prototipo actual
+Android Studio
+Entorno de desarrollo integrado (IDE) para crear aplicaciones Android.
+TensorFlow
+Funciona como plataforma y biblioteca central para el aprendizaje automático . Las API de TensorFlow utilizan Keras para que los usuarios creen sus propios modelos de aprendizaje automático
 
 ---
 
 ## ⚙️ Instalación
+
+Enlace de descarga :
+https://itceduco-my.sharepoint.com/:f:/g/personal/jsramirezr2020_itc_edu_co/EnfDORPGlapHlN4CcVEMoT4B2sBz9vVA8Qlpjm5AA_9-IA?e=bWWZYV 
 
 ### Requisitos previos
 
