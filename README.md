@@ -107,13 +107,12 @@ Funciona como plataforma y biblioteca central para el aprendizaje automático . 
 
 ## ⚙️ Instalación
 
-Enlace de descarga :
+Enlace de descarga de la app:
+
 https://itceduco-my.sharepoint.com/:f:/g/personal/jsramirezr2020_itc_edu_co/EnfDORPGlapHlN4CcVEMoT4B2sBz9vVA8Qlpjm5AA_9-IA?e=bWWZYV 
 
 ### Requisitos previos
 
-- Tener un celular con camara  
-- App instalada
-- Navegador moderno
+- Tener un celular android con camara  
 -Balon de baloncesto
   
